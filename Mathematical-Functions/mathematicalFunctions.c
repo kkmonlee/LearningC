@@ -5,6 +5,7 @@
 /* 	
  * greatestCommonDivisor function which returns the gcd, based on the two numbers.
  * The algorithm is based on Euclids Algorithm.
+ * Complexity: O(log^2 N)
  */
 int gcd(int m, int n) {
 	if (m % n == 0) return n;
