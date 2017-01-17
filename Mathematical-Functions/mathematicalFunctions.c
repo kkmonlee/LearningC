@@ -7,12 +7,8 @@
  * The algorithm is based on Euclids Algorithm.
  */
 int gcd(int m, int n) {
-	if (n > m)
-		gcd(n, m);
-	else if (n == 0)
-		return m;
-	else 
-		gcd(n, m - n);
+	if (m % n == 0) return n;
+	return gcd(n, a % b);
 }
 
 
